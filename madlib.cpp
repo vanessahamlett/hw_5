@@ -1,30 +1,31 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 #include <regex>
 
-void inputFunction(std::string word){
+std::string inputFunction(std::string word){
     std::string in;
-    std::cout << " Enter a: " << word << std::endl;
+    std::cout << "Enter a: " << word << std::endl;
     std::cin >> in;
+    return in;
 }
 
 int main(){
-    std::cout << "Hello World" << std::endl;
 
-    std::ifstream infile("example.txt");
-
-    std::vector<std::string> wordsToReplace;
+    std::ifstream inFile("example.txt");
+    std::ofstream outFile("out.txt");
 
     std::string line;
-    std::regex rgx("{.*?}");
-    while (getline(infile, line)){
+    std::regex rgx("[{].*?}");
+    while (getline(inFile, line)){
         std::smatch word;
-        std::regex_search(line, rgx);
-        //std::cout << (word[0]) << std::endl;
-            //inputFunction(word[1]);
-        
+        std::regex_search(line, word, rgx);
+        std::string replaceWord = inputFunction(word[0]);
+        line = std::regex_replace(line, rgx, replaceWord);
+        outFile << line << "\n";
     }
+
+    outFile.close();
+    inFile.close();
 
     return 0;
 }
