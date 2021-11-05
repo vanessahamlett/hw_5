@@ -1,0 +1,3 @@
+Roses are {color}.
+{Plural Noun} are blue.
+I love {celebrity}.
