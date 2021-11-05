@@ -5,7 +5,7 @@
 
 void inputFunction(std::string word){
     std::string in;
-    std::cout << "Enter a: " << word << std::endl;
+    std::cout << " Enter a: " << word << std::endl;
     std::cin >> in;
 }
 
