@@ -1,3 +1,9 @@
-Roses are {color}.
-{Plural Noun} are blue.
-I love {celebrity}.
+Hello, my fellow {plural noun} in 2020, it's me, George Washington, the first {occupation}.
+I am writing from (the) {a place}, where I have been secretly living for the past {number} years.
+I am converned by the {adjective} state of affairs in America these days.
+It seems that your politicians are more concerned with {verb ending in "ing"} one another that with listening to the {plural noun} of the people.
+When we declared our independence from (the) {a place}, we set forth on a/an {adjective} path guided by the voices of everyday {plural noun}.
+If we're going to keep {verb ending in "ing"}, then we need to learn how to respect all {plural noun}.
+Don't get me wrong: we had {adjective} problems in my day, too. Benjamin Franklin once called me a/an {noun} and kicked me in the {part of the body}.
+But at the end of the day, we were able to {verb} in harmony.
+Let us find that {adjective} spirit once again, or else I'm taking my {part of the body} off the quarter!
